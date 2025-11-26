@@ -6,18 +6,18 @@ export function HeroSection() {
   return (
     <section className="relative h-[90vh] min-h-[700px] w-full flex items-center justify-center text-primary-foreground">
       
-      {/* Imagem de fundo LOCAL */}
+      {/* Imagem de fundo que você já tem */}
       <Image
-        src="/components/layout/desktop-bg.png"    // 
-        alt=""                               // 
+        src="/components/layout/desktop-bg.png"    // caminho correto a partir da pasta public
+        alt=""                                     // imagem decorativa
         fill
         className="object-cover"
         priority
-        quality={95}
+        quality={90}
         sizes="100vw"
       />
 
-      {/* Overlay escuro para legibilidade */}
+      {/* Overlay escuro */}
       <div className="absolute inset-0 bg-primary/60" />
 
       {/* Conteúdo */}
