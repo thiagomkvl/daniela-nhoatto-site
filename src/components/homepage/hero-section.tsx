@@ -8,8 +8,8 @@ export function HeroSection() {
       
       {/* Imagem de fundo LOCAL */}
       <Image
-        src="/images/hero-background.jpg"    // ← agora é local, dentro da pasta public
-        alt=""                               // decorativa (texto está por cima)
+        src="/components/layout/desktop-bg.png"    // 
+        alt=""                               // 
         fill
         className="object-cover"
         priority
