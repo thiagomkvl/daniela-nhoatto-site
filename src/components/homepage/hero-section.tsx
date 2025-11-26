@@ -24,7 +24,7 @@ export function HeroSection() {
           Nhoatto Advogados
         </h1>
         <p className="mt-4 max-w-3xl mx-auto text-lg md:text-xl text-primary-foreground/90">
-          Transformamos decições aparentemente definitivas em novas possibilidades jurídicas.
+          Transformamos decições aparentemente definitivas em novas possibilidades.
         </p>
         <p className="mt-2 max-w-4xl mx-auto text-base text-primary-foreground/80">
         </p>
