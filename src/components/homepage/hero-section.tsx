@@ -8,7 +8,7 @@ export function HeroSection() {
       
       {/* Imagem de fundo que você já tem */}
       <Image
-        src="/components/layout/desktop-bg.png"    // caminho correto a partir da pasta public
+        src="/desktop-bg.png"    // caminho correto a partir da pasta public
         alt=""                                     // imagem decorativa
         fill
         className="object-cover"
