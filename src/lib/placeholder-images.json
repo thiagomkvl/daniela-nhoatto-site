@@ -1,3 +1,46 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "hero-background",
+      "description": "Professional and serious office environment for a law firm.",
+      "imageUrl": "https://images.unsplash.com/photo-1686100510118-207f1434d807?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8b2ZmaWNlJTIwYmFja2dyb3VuZHxlbnwwfHx8fDE3NjQxODU1MjF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "office background"
+    },
+    {
+      "id": "team-member-1",
+      "description": "Professional headshot of a male lawyer.",
+      "imageUrl": "https://images.unsplash.com/photo-1658249682487-882436e01650?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxtYWxlJTIwbGF3eWVyfGVufDB8fHx8MTc2NDE4ODA5Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "male lawyer"
+    },
+    {
+      "id": "team-member-2",
+      "description": "Professional headshot of a female lawyer.",
+      "imageUrl": "https://images.unsplash.com/photo-1726618069974-c1d5d27f612b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxmZW1hbGUlMjBsYXd5ZXJ8ZW58MHx8fHwxNzY0MTg4MDkyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "female lawyer"
+    },
+    {
+      "id": "blog-post-1",
+      "description": "Abstract image related to law and justice.",
+      "imageUrl": "https://images.unsplash.com/photo-1589994965851-a8f479c573a9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxsYXclMjBqdXN0aWNlfGVufDB8fHx8MTc2NDE4ODA5Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "law justice"
+    },
+    {
+      "id": "blog-post-2",
+      "description": "Image related to finance and taxes.",
+      "imageUrl": "https://images.unsplash.com/photo-1709880945165-d2208c6ad2ec?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8ZmluYW5jZSUyMHRheGVzfGVufDB8fHx8MTc2NDE4ODA5M3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "finance taxes"
+    },
+    {
+      "id": "blog-post-3",
+      "description": "Image of a gavel and law books.",
+      "imageUrl": "https://images.unsplash.com/photo-1636262513949-7dc64e54ff62?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxnYXZlbCUyMGJvb2tzfGVufDB8fHx8MTc2NDE4ODA5Mnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "gavel books"
+    },
+    {
+      "id": "map-placeholder",
+      "description": "Placeholder image for a map showing office location.",
+      "imageUrl": "https://images.unsplash.com/photo-1717700299581-c2fc3fad4ee8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxjaXR5JTIwbWFwfGVufDB8fHx8MTc2NDE3MDE5NXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "city map"
+    }
+  ]
 }
