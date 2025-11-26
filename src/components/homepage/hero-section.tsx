@@ -24,18 +24,14 @@ export function HeroSection() {
           Nhoatto Advogados
         </h1>
         <p className="mt-4 max-w-3xl mx-auto text-lg md:text-xl text-primary-foreground/90">
-          Advocacia especializada em defesa criminal, direitos do consumidor,
-          previdenciário e tributário
+          Advocacia especializada em direito tributário, criminal, consumidor e previdenciário
         </p>
         <p className="mt-2 max-w-4xl mx-auto text-base text-primary-foreground/80">
-          Atuação estratégica e humanizada em todo o estado. Mais de 15 anos de
-          experiência em revisões criminais, execuções penais, recuperação de
-          créditos e planejamento tributário.
         </p>
         <div className="mt-8">
           <Button asChild size="lg" variant="outline" className="bg-transparent border-2 border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary">
             <Link href="/areas-de-atuacao">
-              Conhecer nossas áreas de atuação
+              Conheça nossas áreas de atuação
             </Link>
           </Button>
         </div>
