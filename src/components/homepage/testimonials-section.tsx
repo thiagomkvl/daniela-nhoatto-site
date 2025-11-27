@@ -6,10 +6,6 @@ import {
 
 const testimonials = [
   {
-    quote:
-      "Graças ao Dr. Lucas, meu filho conseguiu progredir para o semiaberto após 6 anos parado. Profissionalismo e dedicação admiráveis.",
-    author: "M. Silva",
-  },
   {
     quote:
       "Consegui minha aposentadoria com o valor correto graças à revisão que a Dra. Ana conduziu. Atendimento humano e eficiente.",
