@@ -26,8 +26,8 @@ export function HeroSection() {
         </p>
         <div className="mt-10">
           <Button asChild size="lg" variant="outline" className="bg-transparent border-2 border-primary-foreground text-primary-foreground hover:bg-primary-foreground hover:text-primary px-8 py-6 text-lg font-semibold">
-            <Link href="/areas-de-atuacao">
-              Conheça nossas áreas de atuação
+            <Link href="https://wa.me/49999883015">
+              Fale agora conosco
             </Link>
           </Button>
         </div>
