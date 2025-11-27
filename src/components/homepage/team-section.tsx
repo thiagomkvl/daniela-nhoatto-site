@@ -13,7 +13,7 @@ const teamMembers = [
     name: "Dra. Daniela Nhoatto",
     oab: "OAB/SP 123.456",
     bio: "Sócia fundadora, com mais de 15 anos de experiência em Direito Criminal e Execução Penal. Reconhecida pela atuação combativa nos Tribunais Superiores.",
-    imageId: "team-member-1",
+    imageId: "",
   },
 ];
 
