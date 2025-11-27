@@ -1,9 +1,8 @@
 "use client";
-
 import { useEffect, useState } from "react";
 import Link from "next/link";
 import { Menu, Phone, X } from "lucide-react";
-import { Logo, WhatsAppIcon } from "@/components/icons";
+import { WhatsAppIcon } from "@/components/icons";
 import { Button } from "@/components/ui/button";
 import {
   Sheet,
@@ -47,7 +46,8 @@ export function Header() {
           scrolled ? "h-20" : "h-24"
         )}
       >
-        <Link href="/" aria-label="Nhoatto Advogados - Página Inicial">
+        {/* LOGO/TEXTO: só aparece no desktop */}
+        <Link href="/" aria-label="Nhoatto Advogados - Página Inicial" className="hidden md:block">
           <h1
             className={cn(
               "font-headline text-2xl font-bold transition-colors",
@@ -58,6 +58,10 @@ export function Header() {
           </h1>
         </Link>
 
+        {/* Espaço vazio no mobile pra centralizar o menu */}
+        <div className="md:hidden w-8" aria-hidden="true" />
+
+        {/* Navegação desktop */}
         <nav className="hidden lg:flex items-center gap-6">
           {navLinks.map((link) => (
             <Link
@@ -73,6 +77,7 @@ export function Header() {
           ))}
         </nav>
 
+        {/* Contatos desktop */}
         <div className="hidden lg:flex items-center gap-4">
           <Link
             href="tel:+5511999999999"
@@ -98,17 +103,28 @@ export function Header() {
           </Link>
         </div>
 
+        {/* Menu mobile */}
         <div className="lg:hidden">
           <Sheet open={mobileMenuOpen} onOpenChange={setMobileMenuOpen}>
             <SheetTrigger asChild>
-              <Button variant="ghost" size="icon" className={cn(scrolled ? "text-primary" : "text-primary-foreground hover:bg-white/10 hover:text-white")}>
+              <Button
+                variant="ghost"
+                size="icon"
+                className={cn(
+                  scrolled ? "text-primary" : "text-primary-foreground hover:bg-white/10 hover:text-white"
+                )}
+              >
                 <Menu className="h-6 w-6" />
                 <span className="sr-only">Abrir menu</span>
               </Button>
             </SheetTrigger>
             <SheetContent side="right" className="w-[300px] bg-primary text-primary-foreground">
               <SheetHeader>
-                <Link href="/" aria-label="Nhoatto Advogados - Página Inicial" onClick={() => setMobileMenuOpen(false)}>
+                <Link
+                  href="/"
+                  aria-label="Nhoatto Advogados - Página Inicial"
+                  onClick={() => setMobileMenuOpen(false)}
+                >
                   <h1 className="font-headline text-2xl font-bold text-primary-foreground text-left">
                     Nhoatto Advogados
                   </h1>
@@ -126,12 +142,20 @@ export function Header() {
                   </Link>
                 ))}
               </nav>
-               <div className="flex flex-col gap-4 mt-8">
-                <Link href="tel:+5511999999999" className="flex items-center gap-2 text-base font-medium transition-colors hover:text-accent text-primary-foreground">
+              <div className="flex flex-col gap-4 mt-8">
+                <Link
+                  href="tel:+5511999999999"
+                  className="flex items-center gap-2 text-base font-medium transition-colors hover:text-accent text-primary-foreground"
+                >
                   <Phone className="h-5 w-5" />
                   (11) 99999-9999
                 </Link>
-                <Link href="https://wa.me/5511999999999" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-base font-medium transition-colors hover:text-accent text-primary-foreground">
+                <Link
+                  href="https://wa.me/5511999999999"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-2 text-base font-medium transition-colors hover:text-accent text-primary-foreground"
+                >
                   <WhatsAppIcon className="h-5 w-5" />
                   WhatsApp
                 </Link>
