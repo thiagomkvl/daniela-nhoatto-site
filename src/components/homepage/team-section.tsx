@@ -10,16 +10,10 @@ import { PlaceHolderImages } from "@/lib/placeholder-images";
 
 const teamMembers = [
   {
-    name: "Dr. Lucas Nhoatto",
+    name: "Dra. Daniela Nhoatto",
     oab: "OAB/SP 123.456",
-    bio: "Sócio fundador, com mais de 15 anos de experiência em Direito Criminal e Execução Penal. Reconhecido pela atuação combativa nos Tribunais Superiores.",
+    bio: "Sócia fundadora, com mais de 15 anos de experiência em Direito Criminal e Execução Penal. Reconhecida pela atuação combativa nos Tribunais Superiores.",
     imageId: "team-member-1",
-  },
-  {
-    name: "Dra. Ana Nhoatto",
-    oab: "OAB/SP 654.321",
-    bio: "Especialista em Direito Previdenciário e do Consumidor, com foco em teses de revisão de benefícios e litígios contra planos de saúde e bancos.",
-    imageId: "team-member-2",
   },
 ];
 
