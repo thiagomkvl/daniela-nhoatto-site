@@ -7,7 +7,7 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
-import backgroundImage from "@/public/background.jpg"; // Ajuste o caminho conforme sua estrutura
+import backgroundImage from "@/public/desktop-bg.png"; // Ajuste o caminho conforme sua estrutura
 
 const teamMembers = [
   {
