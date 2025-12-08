@@ -19,10 +19,7 @@ const teamMembers = [
 export function TeamSection() {
   return (
     <section id="equipe" className="w-full py-20 lg:py-28 relative overflow-hidden">
-      {/* Efeito de fundo sutil com gradiente */}
       <div className="absolute inset-0 z-0 bg-gradient-to-br from-background via-background to-primary/5" />
-      
-      {/* Efeito de textura sutil */}
       <div className="absolute inset-0 z-0 opacity-[0.02] bg-[radial-gradient(circle_at_1px_1px,#000_1px,transparent_0)] bg-[length:40px_40px]" />
 
       <div className="container relative z-10 mx-auto px-4">
