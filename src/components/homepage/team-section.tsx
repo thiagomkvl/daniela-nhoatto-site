@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import {
   Card,
@@ -7,7 +6,6 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
-import backgroundImage from "@/public/desktop-bg.png"; // Ajuste o caminho conforme sua estrutura
 
 const teamMembers = [
   {
@@ -20,20 +18,10 @@ const teamMembers = [
 
 export function TeamSection() {
   return (
-    <section id="equipe" className="w-full py-20 lg:py-28 relative overflow-hidden">
-      {/* Imagem de fundo */}
-      <div className="absolute inset-0 z-0">
-        <Image
-          src={backgroundImage}
-          alt="Background"
-          fill
-          className="object-cover"
-          sizes="100vw"
-          priority
-          quality={90}
-        />
-        {/* Overlay para melhor legibilidade */}
-        <div className="absolute inset-0 bg-background/80 backdrop-blur-[2px]" />
+    <section id="equipe" className="w-full py-20 lg:py-28 relative overflow-hidden bg-gradient-to-b from-background via-background/95 to-primary/5">
+      {/* Efeito de partículas ou padrão sutil */}
+      <div className="absolute inset-0 z-0 opacity-5">
+        <div className="absolute inset-0 bg-[radial-gradient(#000_1px,transparent_1px)] [background-size:20px_20px]" />
       </div>
 
       <div className="container relative z-10 mx-auto px-4">
@@ -55,7 +43,7 @@ export function TeamSection() {
             return (
               <Card 
                 key={member.name} 
-                className="overflow-hidden shadow-2xl hover:shadow-3xl transition-all duration-300 hover:-translate-y-1 bg-card/90 backdrop-blur-sm border-border/50"
+                className="overflow-hidden shadow-2xl hover:shadow-3xl transition-all duration-300 hover:-translate-y-1 bg-card/95 backdrop-blur-sm border-border/50"
               >
                 <div className="flex flex-col sm:flex-row items-center p-6">
                   {memberImage && (
